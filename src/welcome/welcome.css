@@ -1,0 +1,57 @@
+.welcomeBanner {
+    margin: auto;
+}
+.welcomeBanner h1 {
+    text-shadow: 5px 5px 5px black;
+}
+
+.informations {
+    margin: 5em auto;
+    text-align: center;
+    display: grid;
+}
+.information {
+    display: flow-root;
+    margin: 0 auto;
+}
+.InformationCards {
+    margin: 0 auto;
+    text-align: center;
+}
+.informationCardContainer {
+    display: inline-block;
+}
+.informationCard {
+    width: 250px;
+    height: auto;
+    margin: 1.5em 3em 1.5em 3em;
+    display: grid;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px 15px 8px 8px;
+    overflow: hidden;
+    box-shadow: 4px 4px 1em black;
+}
+.informationCardHeader {
+    height: 110px;
+    padding: .25em;
+    background: #3c3b3b;
+    background-size: contain !important;
+    font-size: 4.5em;
+}
+.informationCardText {
+    padding: .25em;
+    display: grid;
+    background: white;
+}
+.informationCardText * {
+    color: black;
+}
+.react path {
+    fill: white;
+}
+
+
+

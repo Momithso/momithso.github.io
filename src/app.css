@@ -1,0 +1,118 @@
+/**
+Fonts
+ */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    display: block !important;
+}
+html {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(25, 25, 26);
+}
+body {
+    display: grid;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    font: 14px "Century Gothic", Futura, sans-serif;
+    background: none;
+}
+#root {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: grid;
+}
+.contentContainer {
+    width: 100%;
+    top: 50px;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 3em;
+    margin: .5em 0 .5em 0;
+}
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.25em;
+    margin: 0.35em 0 0.35em 0;
+}
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8em;
+    margin: 0.35em 0 0.35em 0;
+}
+section, .section {
+    height: 94.5vh;
+    display: grid;
+    position: relative;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.winner {
+    color: green;
+}
+.button {
+    min-width: 8rem;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    background: #7a0505;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    margin: 0.5rem 0rem 1rem 0.5rem;
+    box-shadow: 2px 3px .5em #000000;
+}
+.button:hover, button:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    filter: brightness(90%);
+}
+ol, ul {
+    padding-left: 0;
+}
+li {
+    list-style: none;
+}
+p {
+    font-size: 14pt;
+}
+
+.scrollUp {
+    width: 1.5em;
+    height: 1.5em;
+    position: fixed;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    bottom: .5em;
+    right: .5em;
+    font-size: 2em;
+    background: white;
+    border-radius: 1em;
+}
+.scrollUp > svg > path {
+    color: black;
+}
+.scrollUp:hover {
+    cursor: pointer;
+}
