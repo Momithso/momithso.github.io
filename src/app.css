@@ -82,7 +82,7 @@ section, .section {
     box-shadow: 2px 3px .5em #000000;
 }
 .button:hover, button:hover {
-    color: white;
+    color: white !important;
     text-decoration: none;
     cursor: pointer;
     filter: brightness(90%);

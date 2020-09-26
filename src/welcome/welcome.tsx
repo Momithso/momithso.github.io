@@ -1,4 +1,4 @@
-import React from 'React'
+import React from 'react'
 import * as Scroll from 'react-scroll'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFontAwesome} from "@fortawesome/free-brands-svg-icons"
@@ -64,7 +64,7 @@ export default function Welcome() {
                                         <div className={"informationCardText"}>
                                             <h3>{info.name}</h3>
                                             <p>{info.text}</p>
-                                            <a className={"button"} href={info.link}>Erfahre mehr</a>
+                                            <a className={"button"} href={info.link} target={"_blank"}>Erfahre mehr</a>
                                         </div>
                                     </div>
                                 )
