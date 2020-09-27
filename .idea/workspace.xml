@@ -31,6 +31,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebDevelopment\react-tutorial-profile-page\src\navbar" />
+      <recent name="D:\WebDevelopment\react-tutorial-profile-page\src\welcome" />
       <recent name="D:\WebDevelopment\react-tutorial-profile-page\src" />
       <recent name="D:\WebDevelopment\react-tutorial-profile-page\public" />
     </key>
@@ -75,5 +77,9 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state width="1718" height="249" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1601159276796" />
+    <state x="967" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1601163294334">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="967" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1601163294334" />
   </component>
 </project>

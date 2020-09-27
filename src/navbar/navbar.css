@@ -10,10 +10,13 @@
     z-index: 999;
 }
 .logoContainer {
-
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 2em;
 }
-.logoContainer logo {
-
+.logoContainer .logo {
+    width: 100%;
 }
 .navContainer {
     min-width: 380px;

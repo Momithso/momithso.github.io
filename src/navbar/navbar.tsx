@@ -2,12 +2,13 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 import "./navbar.css"
-import logo from '../public/images/logo.png'
+import logo from "./logo.png"
 
 export default function Navbar() {
     return (
         <div className={"navigation"}>
             <div className={"logoContainer"}>
+                <img className={"logo"} src={logo}/>
             </div>
             <div className={"navContainer"}>
                 <ul className={"navList"}>

@@ -1,6 +1,3 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 module.exports = {
     entry: './src/app.tsx',
     resolve: {
@@ -23,18 +20,14 @@ module.exports = {
 
             },
             {
-                test: /\.(jpg|png)$/,
-                use: {
-                    loader: "file-loader",
-                    options: {
-                        name: "./images/[hash].[ext]",
-                    },
-                },
-            },
+                test: /\.(jpe?g|png|gif|svg)$/i,
+                use: [
+                    'file-loader'
+                ]
+            }
         ],
     },
     devServer: {
-        contentBase: path.join(__dirname, 'build'),
         historyApiFallback: true,
         host: '0.0.0.0',
         compress: true,
@@ -46,12 +39,8 @@ module.exports = {
     output: {
         filename: '[name].bundle.js',
         publicPath: '/',
-        path: path.resolve(__dirname, 'build'),
     },
     plugins: [
-        new HtmlWebpackPlugin({
-            template: path.join(__dirname, 'index.html'),
-        }),
     ],
 };
 
