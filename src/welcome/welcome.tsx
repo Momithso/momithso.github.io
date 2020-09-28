@@ -2,18 +2,19 @@ import React from 'react'
 import * as Scroll from 'react-scroll'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFontAwesome} from "@fortawesome/free-brands-svg-icons"
-
+import {v4 as uuid} from 'uuid'
 import "./welcome.css"
 
 
 export default function Welcome() {
 
-    let ScrollLink = Scroll.Link
-    let ScrollElement = Scroll.Element
+    const ScrollLink = Scroll.Link
+    const ScrollElement = Scroll.Element
 
     const informationCard = [
         {
             name: "React",
+            key: uuid(),
             link: "https://reactjs.org/",
             text: "Ist eine JavaScript Library für User-Interfaces",
             icon: "",
@@ -28,6 +29,7 @@ export default function Welcome() {
         },
         {
             name: "FontAwesome",
+            key: uuid(),
             link: "https://fontawesome.com/",
             text: "Ist das populärste Icon Set und Toolkit für Websites",
             icon: <FontAwesomeIcon icon={faFontAwesome} className={"fontAwesome"}/>,
@@ -56,7 +58,7 @@ export default function Welcome() {
                         <div className={"informationCardContainer"}>
                             { informationCard.map(info => {
                                 return (
-                                    <div className={"informationCard"}>
+                                    <div key={info.key} className={"informationCard"}>
                                         <div className={"informationCardHeader"}
                                              style={info.styleHeader}>
                                             {info.icon}
@@ -64,7 +66,7 @@ export default function Welcome() {
                                         <div className={"informationCardText"}>
                                             <h3>{info.name}</h3>
                                             <p>{info.text}</p>
-                                            <a className={"button"} href={info.link} target={"_blank"}>Erfahre mehr</a>
+                                            <a className={"button"} href={info.link} rel={"noreferrer"} target={"_blank"}>Erfahre mehr</a>
                                         </div>
                                     </div>
                                 )

@@ -46,6 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601159089413</updated>
       <workItem from="1601159090581" duration="3027000" />
+      <workItem from="1601199274337" duration="1254000" />
+      <workItem from="1601215051351" duration="644000" />
     </task>
     <servers />
   </component>
@@ -57,6 +59,10 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="742" y="363" width="782" height="438" key="#ESLint/0.0.1739.939@0.0.1739.939" timestamp="1601161923338" />
+    <state x="1056" y="275" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601199318582">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="1056" y="275" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1739.939@0.0.1739.939" timestamp="1601199318582" />
     <state x="650" y="225" key="FileChooserDialogImpl" timestamp="1601161229075">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -81,5 +87,16 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="967" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1601163294334" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/navbar/navbar.tsx</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
