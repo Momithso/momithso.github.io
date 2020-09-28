@@ -12,10 +12,11 @@ import * as Scroll from 'react-scroll'
 
 import './app.css'
 
-let ScrollLink = Scroll.Link
-let ScrollElement = Scroll.Element
+const ScrollLink = Scroll.Link
+const ScrollElement = Scroll.Element
 
 function App() {
+    
     return (
         <ScrollElement name={"topElement"}>
             <Router>
